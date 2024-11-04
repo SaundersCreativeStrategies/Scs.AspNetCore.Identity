@@ -24,7 +24,7 @@
         <PackageIcon>scs-logo-600x600.png</PackageIcon>
         <PackageIconUrl>http://asparatu.net/images/scs-logo-600x600.png</PackageIconUrl>
 
-        <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
