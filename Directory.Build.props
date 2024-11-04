@@ -1,9 +1,13 @@
 <Project>
     <PropertyGroup>
         <Authors>Shane Saunders</Authors>
-        <Company>Saunders Creative Strategies (SCS)</Company>
-        <Copyright>Copyright © 2023-2024. Saunders Creative Strategies (SCS). All Rights Reserved.</Copyright>
+        <Company>Saunders Creative Strategies {SCS}</Company>
+        <Copyright>Copyright © 2023-2024. Saunders Creative Strategies {SCS}. All Rights Reserved.</Copyright>
 
+        <NoWarn>CS1591</NoWarn>
+    </PropertyGroup>
+
+    <PropertyGroup Condition ="'$(Configuration)' == 'Release'">
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         
@@ -22,13 +26,11 @@
 
         <PackageReadmeFile>readme.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-
-        <NoWarn>CS1591</NoWarn>
     </PropertyGroup>
 
-    <ItemGroup>
+    <ItemGroup Condition="'$(Configuration)' == 'Release'">
         <None Include="../../images/scs-logo-600x600.png" Pack="true" PackagePath="\" />
-        <None Include="../../docs/readme.md" Pack="true" PackagePath="\" />
+        <None Include="../../docs/README.md" Pack="true" PackagePath="\" />
         <None Include="../../LICENSE" Pack="true" PackagePath="" />
     </ItemGroup>
 </Project>
