@@ -25,7 +25,7 @@
         <PackageIconUrl>http://asparatu.net/images/scs-logo-600x600.png</PackageIconUrl>
 
         <PackageReadmeFile>readme.md</PackageReadmeFile>
-        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
     <ItemGroup Condition="'$(Configuration)' == 'Release'">
