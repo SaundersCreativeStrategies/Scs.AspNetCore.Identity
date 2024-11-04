@@ -3,9 +3,15 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup>
     <RootNamespace>Scs.AspNetCore.Identity</RootNamespace>
     <PackageId>Scs.AspNetCore.Identity</PackageId>
-    <OutputType>Library</OutputType>
+    <AssemblyName>Scs.AspNetCore.Identity</AssemblyName>
+    <AssemblyTitle>Scs.AspNetCore.Identity</AssemblyTitle>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -37,7 +43,7 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.8" />
   </ItemGroup>
 
-   <ItemGroup>
+  <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 </Project>
