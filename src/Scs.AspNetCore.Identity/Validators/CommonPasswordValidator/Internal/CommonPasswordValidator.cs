@@ -3,6 +3,7 @@ using Microsoft.Extensions.Options;
 
 //source code: https://github.com/andrewlock/CommonPasswordsValidator
 
+#nullable disable
 namespace Scs.AspNetCore.Identity.Validators.CommonPasswordValidator.Internal
 {
     /// <summary>

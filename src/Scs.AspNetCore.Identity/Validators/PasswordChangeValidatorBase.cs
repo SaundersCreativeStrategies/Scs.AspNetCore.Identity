@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Scs.AspNetCore.Identity.Validators;
 
+#nullable disable
 /// <inheritdoc />
 internal abstract class PasswordChangeValidatorBase<TUser>
     : ChangePasswordOnlyValidatorBase<TUser, string> where TUser : IdentityUser<string> { }

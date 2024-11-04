@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 
+#nullable disable
 namespace Scs.AspNetCore.Identity
 {
     /// <summary>

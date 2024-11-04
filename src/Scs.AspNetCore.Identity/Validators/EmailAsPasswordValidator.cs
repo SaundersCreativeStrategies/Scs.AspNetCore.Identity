@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
+#nullable disable
 namespace Scs.AspNetCore.Identity.Validators
 {
     /// <inheritdoc />

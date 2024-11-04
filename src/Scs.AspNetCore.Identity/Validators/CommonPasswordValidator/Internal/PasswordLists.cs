@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using System.Reflection;
 
+#nullable disable
 namespace Scs.AspNetCore.Identity.Validators.CommonPasswordValidator.Internal
 {
     internal class PasswordLists

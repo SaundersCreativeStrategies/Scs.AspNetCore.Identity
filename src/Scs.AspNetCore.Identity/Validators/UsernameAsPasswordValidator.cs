@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace Scs.AspNetCore.Identity.Validators;
 
+#nullable disable
 /// <inheritdoc />
 internal class UsernameAsPasswordValidator<TUser> : UsernameAsPasswordValidator<TUser, string> where TUser : IdentityUser<string> { }
 

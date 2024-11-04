@@ -1,7 +1,7 @@
 using System.Security.Claims;
 
 namespace Scs.AspNetCore.Identity.Extensions;
-
+#nullable disable
 public static class ClaimsIdentityExtension
 {
     public static void AddEnumClaim<T>(this ClaimsIdentity identity, string type, T enumValue) where T : struct
